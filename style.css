@@ -21,8 +21,13 @@ body{
 h1{
     font-size: 55px;
 }
+h2{
+    font-size: 30px;
+}
 p{
     font-size: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .orange-color{
     color: orange;
@@ -37,8 +42,10 @@ p{
     border-image: linear-gradient(salmon,tomato);
     border-image-slice: 1;
     border-radius: 10px;
-    margin-bottom: 20px;
-    
+    margin-bottom: 20px;   
+}
+#text_space{
+    text-align: center;
 }
 .link-button{
     text-decoration: none;
@@ -51,4 +58,32 @@ p{
     margin-top:10%;
     margin-bottom: 50px;
 
+}
+#mission{
+margin-left: 10%;
+margin-right: 10%;
+margin-bottom: 5%;
+}
+.one-third{
+    width: 25%;
+    margin-top: 5%;
+    margin-right: 4%;
+    border-radius: 10px;
+    background-color: brown;
+    padding-left: 3%;
+}
+#first-box{
+    padding:3%;
+    background-color: antiquewhite;   
+}
+#secound-box{
+    padding:3%;
+    background-color: antiquewhite;    
+}
+#third-box{
+    padding:3%;
+    background-color: aqua; 
+}
+.one-third img{
+    width: 50%;
 }
