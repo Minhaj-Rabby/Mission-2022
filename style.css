@@ -8,7 +8,7 @@ body{
 }
 .flexible-container{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 70px;
 }
 .half-width{
   width: 50%;
@@ -35,21 +35,25 @@ body{
 }
 
 .fifty-five-fourty-five-width{
-  width: 45%;
+  width: 55%;
   padding-top: 7%;
   padding-left: 10%;
-}
-.fifty-five-fourty-five-width img{
-    width: 90%;
+  padding-right: 5%;
 }
 .fourty-five-fifty-five-width{
-  width: 55%;
-  padding-top: 8%;
-  padding-right: 13%;
+  width: 45%;
+  padding-top: 3%;
+  padding-right: 10%;
   text-align: left;
+  background-image: url(images/shapes/shape-1.png);
+  background-repeat: no-repeat;
+  background-size: 45%;
+  background-position-x: 80%;
+  background-position-y: 65%;
 }
+
 .fourty-five-fifty-five-width img{
-    width: 60%;
+    width: 90%;
     
 }
 
@@ -100,7 +104,6 @@ p{
 #mission{
 margin-left: 10%;
 margin-right: 10%;
-margin-bottom: 5%;
 }
 .one-third{
     width: 25%;
@@ -131,4 +134,10 @@ margin-bottom: 5%;
     background-size: 40%;
     background-position-x: 12%;
     background-position-y: 70%;
+}
+footer{
+text-align: center;
+padding: 2%;
+background-color: black;
+color: antiquewhite;
 }
