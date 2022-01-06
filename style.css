@@ -94,7 +94,7 @@ p{
 #border{
     border-left: 8px solid;
     padding: 0px 10px 0px 10px;
-    border-image: linear-gradient(salmon,tomato);
+    border-image: linear-gradient(orange, tomato );
     border-image-slice: 1;
     border-radius: 10px;
     margin-bottom: 20px;   
@@ -128,15 +128,15 @@ margin-right: 10%;
 }
 #first-box{
     padding:3%;
-    background-color: antiquewhite;   
+    background-color: #EDF5F6;   
 }
 #secound-box{
     padding:3%;
-    background-color: antiquewhite;    
+    background-color: #FFEEEE;    
 }
 #third-box{
     padding:3%;
-    background-color: aquamarine; 
+    background-color: #FFF4D6; 
 }
 .one-third img{
     width: 50%;
@@ -151,6 +151,6 @@ margin-right: 10%;
 footer{
 text-align: center;
 padding: 2%;
-background-color: black;
+background-color: #0B0D17;
 color: antiquewhite;
 }
